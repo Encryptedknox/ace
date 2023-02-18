@@ -1,5 +1,5 @@
 pyrogram==1.4.16
-git+https://github.com/Encryptedknox/dlp
+yt-dlp
 motor
 dnspython
 Pillow
