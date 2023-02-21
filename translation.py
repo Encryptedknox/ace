@@ -80,3 +80,21 @@ You can use /rename command after receiving file to rename it with custom thumbn
     CANCEL_STR = "Process Cancelled."
     ZIP_UPLOADED_STR = "Uploaded {} files in {} seconds."
     SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
+    DONATE = """ <b>appreciate my work</b>
+             https://www.buymeacoffee.com/aceknox """
+    ABOUT =""" 
+◽ My Name  : Url Uploader Bot
+◽ Channel : @knoxprojects
+◽ Support  : @knoxsupport
+◽ Source : [Ace](https://github.com/aceknox)
+◽ Server  : [Doprax](https://doprax.com/)
+◽ Language : [Python 3.10.5](https://www.python.org/)
+◽ Framework  : [Pyrogram 1.8.30](https://docs.pyrogram.org/)
+◽ Developer  : @aceknox
+"""
+    COMMANDS = """
+◽ /start - check status
+◽ /help - for more
+◽ /about - me
+◽ /donate - contribution
+"""
