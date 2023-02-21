@@ -87,7 +87,7 @@ You can use /rename command after receiving file to rename it with custom thumbn
 ◽ Channel : @knoxprojects
 ◽ Support  : @knoxsupport
 ◽ Source : [Ace](https://github.com/aceknox)
-◽ Server  : [Doprax](https://doprax.com/)
+◽ Server  : [Railway](https://railway.app/)
 ◽ Language : [Python 3.10.5](https://www.python.org/)
 ◽ Framework  : [Pyrogram 1.8.30](https://docs.pyrogram.org/)
 ◽ Developer  : @aceknox
