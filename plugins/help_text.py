@@ -85,6 +85,30 @@ async def help_user(bot, update):
         quote=True
     )
 
+@Clinton.on_message(filters.private & filters.command(["donate"]))
+async def donate(bot, update):
+    await AddUser(bot, update)
+    await update.reply_text(
+        Translation.DONATE,
+        quote=True
+    )
+
+@Clinton.on_message(filters.private & filters.command(["about"]))
+async def about(bot, update):
+    await AddUser(bot, update)
+    await update.reply_text(
+        Translation.ABOUT,
+        quote=True
+    )
+
+@Clinton.on_message(filters.private & filters.command(["commands"]))
+async def commands(bot, update):
+    await AddUser(bot, update)
+    await update.reply_text(
+        Translation.COMMANDS,
+        quote=True
+    )
+
 @Clinton.on_message(filters.private & filters.command(["addcaption"]))
 async def add_caption_help(bot, update):
     await AddUser(bot, update)
