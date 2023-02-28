@@ -18,21 +18,6 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 @Client.on_message(filters.regex(pattern=".*http.*"))
 
 async def echo(bot, message):
-    if Config.LOG_CHANNEL:
-        try:
-            log_message = await message.forward(Config.LOG_CHANNEL)
-            log_info = "Message Sender Information\n"
-            log_info += "\nFirst Name: " + message.from_user.first_name
-            log_info += "\nUser ID: " + str(message.from_user.id)
-            log_info += "\nUsername: @" + message.from_user.username if message.from_user.username else ""
-            log_info += "\nUser Link: " + message.from_user.mention
-            await log_message.reply_text(
-                text=log_info,
-                disable_web_page_preview=True,
-                quote=True
-            )
-        except Exception as error:
-            print(error)
     if not message.from_user:
         return await message.reply_text("I don't know about you sar :(")
     await AddUser(bot, message)
