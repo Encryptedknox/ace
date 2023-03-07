@@ -18,15 +18,6 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 @Client.on_message(filters.regex(pattern=".*http.*"))
 
 async def echo(bot, message):
-    if not message.from_user:
-        return await message.reply_text("I don't know about you sar :(")
-    await AddUser(bot, message)
-
-    if Config.UPDATES_CHANNEL:
-      fsub = await handle_force_subscribe(bot, message)
-      if fsub == 400:
-        return
-
     info_msg = await message.reply_text("<b>Processing... ⏳</b>", quote=True)
     logger.info(message.from_user)
     youtube_dl_username = None
