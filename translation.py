@@ -4,7 +4,7 @@ I'm <b>Url Uploader Bot! ✨</b>
 
 Send me a direct link and I will upload it to telegram as a file/video.</b>
 
-/help for more details <a href='https://t.me/transload'It's Easy </a>"""
+/help for more details <a href='https://t.me/transload' Its Easy </a>"""
     ADD_CAPTION_HELP = """Select an uploaded file/video or forward me <b>Any Telegram File</b> and just write the text you want to be on the file <b>as a reply to the file</b> and the text you wrote will be attached as the caption! 🤩
     
 Ex: <a href='https://telegra.ph/file/0d4cf1d5677dda9311135.png'>See This!</a> 👇"""
@@ -79,7 +79,7 @@ You can use /rename command after receiving file to rename it with custom thumbn
     ZIP_UPLOADED_STR = "Uploaded {} files in {} seconds."
     SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
     DONATE = """ <b>appreciate my work</b>
-             Contact admin : @aceknox """
+    Contact admin : @aceknox """
     ABOUT =""" 
 ◽ My Name  : Url Uploader Bot
 ◽ Channel : @knoxprojects
