@@ -9,7 +9,7 @@ Send me a direct link and I will upload it to telegram as a file/video.</b>
     ADD_CAPTION_HELP = """Select an uploaded file/video or forward me <b>Any Telegram File</b> and just write the text you want to be on the file <b>as a reply to the file</b> and the text you wrote will be attached as the caption! 🤩
     
 Ex: <a href='https://telegra.ph/file/0d4cf1d5677dda9311135.png'>See This!</a> 👇"""
-    INCORRECT_REQUEST = """Make sure you submit your request correctly
+    INCORRECT_REQUEST = """Make sure you submit your request correctly <a href='https://telegra.ph/file/0d4cf1d5677dda9311135.png'>Send Like This! It's Easy</a>
     
 /help for more details!"""
     DISPLAY_PROGRESS = """[{0}{1}] {2}%
@@ -25,7 +25,7 @@ Select and choose format
 URL | filename | username | password"""
     DOWNLOAD_START = """<b>File detected:</b> {}
     
-<b>Initiating download... </b>"""
+<b>Initiating download..<a href='https://telegra.ph/file/0d4cf1d5677dda9311135.png'>Send Like This! It's Easy</a> </b>"""
     UPLOAD_START = "<b>Uploading to Telegram... </b>"
     RCHD_TG_API_LIMIT = """<b>The file couldn't be uploaded</b>
 Sorry. I cannot upload files greater than 2GB due to Telegram API limitations.
