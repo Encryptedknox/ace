@@ -25,7 +25,7 @@ Select and choose format
 URL | filename | username | password"""
     DOWNLOAD_START = """<b>File detected:</b> {}
     
-<b>Initiating download..<a href='https://telegra.ph/file/0d4cf1d5677dda9311135.png'>Send Like This! It's Easy</a> </b>"""
+<b>Initiating download..<a href='https://t.me/transload'It's Easy </a> </b>"""
     UPLOAD_START = "<b>Uploading to Telegram... </b>"
     RCHD_TG_API_LIMIT = """<b>The file couldn't be uploaded</b>
 Sorry. I cannot upload files greater than 2GB due to Telegram API limitations.
