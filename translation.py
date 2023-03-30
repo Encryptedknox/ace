@@ -4,7 +4,7 @@ I'm <b>Url Uploader Bot! ✨</b>
 
 Send me a direct link and I will upload it to telegram as a file/video.</b>
 
-/help for more details [knox](@knoxprojects) !
+/help for more details <a href='https://telegram.me/aceknox'> !
 """
     ADD_CAPTION_HELP = """Select an uploaded file/video or forward me <b>Any Telegram File</b> and just write the text you want to be on the file <b>as a reply to the file</b> and the text you wrote will be attached as the caption! 🤩
     
